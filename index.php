@@ -5,6 +5,7 @@ class Movie{
     private $anno;
     private $genere;
     private $protagonista;
+    private $lingua;
 
     public function __construct($_anno, $_genere, $_protagonista){
         $this->anno = $_anno;
@@ -26,7 +27,7 @@ class Movie{
     }
 }
 
-$film = new Movie(2014, 'fantasy', 'Leonardo Di Caprio');
+$film = new Movie(2014, 'fantasy', 'Leonardo DiCaprio');
 var_dump($film)
 
 ?>
